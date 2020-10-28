@@ -1,6 +1,13 @@
-# New Project
+# Snowpack Antd React
 
 > ✨ Bootstrapped with Create Snowpack App (CSA).
+
+commands :
+
+    npx create-snowpack-app snowpack-antd-react --template @snowpack/app-template-react-typescript
+    cd snowpack-antd-react
+    npm install --save-dev snowpack-plugin-less
+    npm i antd
 
 ## Available Scripts
 
@@ -11,6 +18,8 @@ Open http://localhost:8080 to view it in the browser.
 
 The page will reload if you make edits.
 You will also see any lint errors in the console.
+
+Use `npm start -- --reload` to reload cache and remove some build errors
 
 ### npm run build
 
