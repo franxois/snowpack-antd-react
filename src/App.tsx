@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import logo from './logo.svg';
 import './App.less';
-import { Button } from 'antd';
+import { MyButton } from './MyButton';
 
 interface AppProps {}
 
@@ -25,21 +25,21 @@ function App({}: AppProps) {
           Page has been open for <code>{count}</code> seconds.
         </p>
         <p>
-          <Button
+          <MyButton
             onClick={() => {
               setCount(0);
             }}
           >
             rewind
-          </Button>{' '}
-          <Button
+          </MyButton>{' '}
+          <MyButton
             type="primary"
             onClick={() => {
               setCount(count + 1);
             }}
           >
             fast forward
-          </Button>
+          </MyButton>
         </p>
         <p>
           <a
