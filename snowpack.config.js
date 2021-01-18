@@ -14,19 +14,10 @@ module.exports = {
       },
     ],
   ],
-  install: [
-    /* ... */
-  ],
-  installOptions: {
-    /* ... */
-  },
   devOptions: {
     /* ... */
   },
   buildOptions: {
-    /* ... */
-  },
-  proxy: {
     /* ... */
   },
   alias: {
